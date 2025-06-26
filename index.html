@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Flashcard</title>
+<meta charset="UTF-8">
+<title>Gerador de Senhas</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <section id="container">
-            <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        O que é JavaScript?
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        O JavaScript é uma linguagem de programação
-                    </div>
-                </div>
-            </article>
-            <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        O que é CSS?
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        O CSS é uma linguagem de estilização
-                    </div>
-                </div>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
-    </footer>
+<!-- Identificação do aluno -->
+<!-- Nome: Fulano da Silva - No 5 - Turma 2oB -->
+<h1> Gerador de Senhas</h1> 🔐
+<div class="parametro-senha">
+<h4>Características da senha</h4>
+<div class="parametro-senha-checkbox">
+<input type="checkbox" name="maiusculo" class="checkbox" checked>
+<label for="maiusculo">Letras maiúsculas</label>
+</div>
+<div class="parametro-senha-checkbox">
+<input type="checkbox" name="minusculo" class="checkbox">
+<label for="minusculo">Letras minúsculas</label>
+</div>
+<div class="parametro-senha-checkbox">
+<input type="checkbox" name="numero" class="checkbox">
+<label for="numero">Números</label>
+</div>
+<div class="parametro-senha-checkbox">
+<input type="checkbox" name="simbolo" class="checkbox">
+<label for="simbolo">Símbolos</label>
+</div>
+<input type="text" placeholder="Senha gerada aqui" class="campo-senha" readonly>
+<button>Gerar senha</button>
+</div>
+<footer>
+Página criada por [Seu nome]
+</footer>
 </body>
 </html>
-<

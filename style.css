@@ -1,52 +1,44 @@
 body {
-    background-color: bisque;
+font-family: Arial, sans-serif;
+padding: 20px;
+background-color: #f0f0f0;
 }
-
+.parametro-senha {
+background: white;
+padding: 20px;
+border-radius: 10px;
+width: 300px;
+margin: auto;
+}
+.checkbox {
+width: 20px;
+height: 20px;
+cursor: pointer;
+}
+label {
+font-size: 18px;
+}
+.parametro-senha-checkbox {
+margin-bottom: 10px;
+}
+.campo-senha {
+width: 100%;
+padding: 10px;
+margin-top: 15px;
+font-size: 18px;
+}
+button {
+margin-top: 10px;
+padding: 10px;
+width: 100%;
+background-color: #007bff;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
 footer {
-    background-color: black;
-    color: white;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-}
-
-footer p {
-    text-align: center;
-}
-
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-}
-
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-}
-
-body {
-    background-color: bisque;
-    font-family: Bai Jamjuree;
+text-align: center;
+margin-top: 30px;
+font-size: 14px;
+color: #777;
 }
